@@ -1,16 +1,18 @@
 <?php
 
+namespace PluginNameIncludes;
+
 /**
  * The file that defines the core plugin class
  *
- * A class definition that includes attributes and functions used across both the
+ * A class definition that Includes attributes and functions used across both the
  * public-facing side of the site and the admin area.
  *
  * @link       http://example.com
  * @since      1.0.0
  *
- * @package    Plugin_Name
- * @subpackage Plugin_Name/includes
+ * @package    PluginName
+ * @subpackage PluginName/Includes
  */
 
 /**
@@ -23,11 +25,11 @@
  * version of the plugin.
  *
  * @since      1.0.0
- * @package    Plugin_Name
- * @subpackage Plugin_Name/includes
+ * @package    PluginName
+ * @subpackage PluginName/Includes
  * @author     Your Name <email@example.com>
  */
-class Plugin_Name {
+class PluginName {
 
 	/**
 	 * The loader that's responsible for maintaining and registering all hooks that power
@@ -103,13 +105,13 @@ class Plugin_Name {
 		 * The class responsible for orchestrating the actions and filters of the
 		 * core plugin.
 		 */
-		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/class-plugin-name-loader.php';
+		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'Includes/class-plugin-name-loader.php';
 
 		/**
 		 * The class responsible for defining internationalization functionality
 		 * of the plugin.
 		 */
-		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/class-plugin-name-i18n.php';
+		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'Includes/class-plugin-name-i18n.php';
 
 		/**
 		 * The class responsible for defining all actions that occur in the admin area.

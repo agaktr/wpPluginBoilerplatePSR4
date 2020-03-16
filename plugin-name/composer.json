@@ -1,0 +1,10 @@
+{
+    "name": "author/plugin",
+    "type": "library",
+    "description": "Description",
+    "autoload": {
+        "psr-4": {
+            "PluginNameIncludes\\": "src/Includes/"
+        }
+    }
+}

@@ -10,7 +10,7 @@
  * @since      1.0.0
  *
  * @package    Plugin_Name
- * @subpackage Plugin_Name/includes
+ * @subpackage Plugin_Name/Includes
  */
 
 /**
@@ -21,7 +21,7 @@
  *
  * @since      1.0.0
  * @package    Plugin_Name
- * @subpackage Plugin_Name/includes
+ * @subpackage Plugin_Name/Includes
  * @author     Your Name <email@example.com>
  */
 class Plugin_Name_i18n {
@@ -37,7 +37,7 @@ class Plugin_Name_i18n {
 		load_plugin_textdomain(
 			'plugin-name',
 			false,
-			dirname( dirname( plugin_basename( __FILE__ ) ) ) . '/languages/'
+			dirname( dirname( plugin_basename( __FILE__ ) ) ) . '/translations/'
 		);
 
 	}
